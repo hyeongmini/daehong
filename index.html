@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=1">
+<link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
 <header class="site-header" id="siteHeader">
@@ -20,6 +20,7 @@
     <nav class="nav" aria-label="주 메뉴">
       <a class="" href="about.html">회사소개</a>
       <a class="" href="business.html">사업영역</a>
+      <a class="" href="welfare.html">복지제도</a>
       <a class="" href="contact.html">오시는 길</a>
     </nav>
     <button class="burger" id="burger" aria-label="메뉴 열기"><span></span><span></span><span></span></button>
@@ -29,8 +30,9 @@
   <button class="drawer-close" id="drawerClose" aria-label="닫기">×</button>
   <a href="about.html"><small>ABOUT</small>회사소개</a>
   <a href="business.html"><small>BUSINESS</small>사업영역</a>
+  <a href="welfare.html"><small>BENEFITS</small>복지제도</a>
   <a href="contact.html"><small>CONTACT</small>오시는 길</a>
-  <p>경상북도 성주군 초전면 주천로 1332-22</p>
+  <p>경상북도 성주군 초전면 주천로 1332-22<br>전화 054-932-8855 · 팩스 054-932-8856</p>
 </div>
 
 <main>
@@ -41,13 +43,13 @@
   <div class="hero-copy"><div class="wrap"><div class="bar"></div><div class="body">
     <div class="hero-eyebrow">QUARRY · SEONGJU</div>
     <h1>돌에서 시작하는<br><em>건설의 기초</em></h1>
-    <p>(주)대홍은 경북 성주에서 석산을 운영하며 건설용 골재를 생산합니다.</p>
+    <p>(주)대홍은 품질과 안전을 최우선으로, 건설 산업의 든든한 기반을 만들어갑니다.</p>
   </div></div></div>
   
   <div class="hero-copy"><div class="wrap"><div class="bar"></div><div class="body">
-    <div class="hero-eyebrow">SINCE 1993</div>
+    <div class="hero-eyebrow">SINCE 1979</div>
     <h1>석산에서<br><em>골재</em>까지</h1>
-    <p>채석부터 파쇄·선별을 거쳐 도로·콘크리트·토목 현장의 골재를 공급합니다.</p>
+    <p>석재 채굴부터 쇄석 생산, 샌드와 골재 공급까지 이어갑니다.</p>
   </div></div></div>
   <div class="hero-scroll">SCROLL</div>
   <div class="hero-count" id="heroCount">01 / 02</div>
@@ -56,12 +58,14 @@
 
 <section class="strata">
   <div class="wrap">
-    <div class="rv"><div class="label">TIMELINE</div><h2 class="h2">성주의 석산, 그 이력</h2></div>
-    <div class="years">
-      <div class="year rv"><b>1978</b><h3>토석채취 허가</h3><p>석산의 토석채취 허가를 최초 취득</p></div>
-      <div class="year rv d1"><b>1993</b><h3>(주)대홍 설립</h3><p>성주군을 기반으로 사업 시작</p></div>
-      <div class="year rv d2"><b>2024</b><h3>채석단지 지정</h3><p>경상북도가 석산을 채석단지로 지정 (5월)</p></div>
+    <div class="rv"><div class="label">TIMELINE</div><h2 class="h2">1979년부터 이어온 이력</h2></div>
+    <div class="years y4">
+      <div class="year rv"><b>1979</b><h3>대진산업 설립</h3><p>1993년 (주)대홍으로 법인전환</p></div>
+      <div class="year rv d1"><b>1996</b><h3>세척골재생산설비 설치</h3><p>업계 최초</p></div>
+      <div class="year rv d2"><b>1999</b><h3>KTX 궤도자갈 공식 납품</h3><p>납품 업체 선정, 업계 최초</p></div>
+      <div class="year rv d1"><b>2024</b><h3>성주 채석단지 지정</h3><p>경상북도고시 제2024–180호</p></div>
     </div>
+    <a class="btn light" href="about.html#history">연혁 전체 보기 →</a>
   </div>
 </section>
 
@@ -69,13 +73,26 @@
   <div class="wrap split">
     <div class="rv">
       <div class="label">PRODUCTS</div>
-      <h2 class="h2">건설 현장이 필요로 하는<br>골재와 마사</h2>
-      <p class="lead">석산에서 캐낸 암석을 가공해 건설용 골재와 마사를 생산합니다.</p>
+      <h2 class="h2">건설 현장이 필요로 하는<br>샌드와 골재</h2>
+      <p class="lead">체계적인 생산 공정을 토대로 석재 채굴부터 쇄석 생산 및 샌드와 골재를 공급합니다.</p>
       <a class="btn" href="business.html">사업영역 보기 →</a>
     </div>
     <div class="cards2 rv d1">
-      <div class="pcard"><img src="img/aggregate.jpg" alt="쇄석 골재"><div class="cap"><small>AGGREGATE</small><b>쇄석 골재</b><span>건설용 골재</span></div></div>
-      <div class="pcard"><img src="img/masa.jpg" alt="마사"><div class="cap"><small>MASA</small><b>마사</b><span>토목·조경용 재료</span></div></div>
+      <div class="pcard"><img src="img/aggregate.jpg" alt="쇄석 골재"><div class="cap"><small>AGGREGATE</small><b>골재</b><span>13 · 19 · 25 · 40mm, 40mm 혼합골재</span></div></div>
+      <div class="pcard"><img src="img/masa.jpg" alt="샌드"><div class="cap"><small>SAND</small><b>샌드</b><span>그 외 게비온석</span></div></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="sec sec-paper" id="policy">
+  <div class="wrap">
+    <div class="rv"><div class="label">MANAGEMENT POLICY</div><h2 class="h2">경영방침</h2></div>
+    <div class="policy">
+      <div class="pol rv d0"><b>01</b><h3>안전 최우선경영</h3></div>
+      <div class="pol rv d1"><b>02</b><h3>품질과 신뢰경영</h3></div>
+      <div class="pol rv d2"><b>03</b><h3>상생과 책임경영</h3></div>
+      <div class="pol rv d0"><b>04</b><h3>혁신과 미래경영</h3></div>
     </div>
   </div>
 </section>
@@ -98,6 +115,7 @@
     <div class="rv"><div class="label" style="color:#c5dc3c">LOCATION</div><h2 style="margin-top:16px">찾아오시는 길</h2></div>
     <div class="contact-box rv d1"><dl>
       <dt>ADDRESS</dt><dd>경상북도 성주군 초전면 주천로 1332-22</dd>
+      <dt>TEL / FAX</dt><dd>054-932-8855 / 054-932-8856</dd>
     </dl><a class="btn light" href="contact.html" style="margin-top:28px">오시는 길 →</a></div>
   </div>
 </section>
@@ -106,15 +124,16 @@
   <div class="wrap">
     <div class="foot-top">
       <a href="index.html" class="brand"><span class="brand-mark"><svg viewBox="0 0 26 26" aria-hidden="true"><path d="M2 22 10 6l5 9 3-5 6 12z" fill="#16191c"/></svg></span><span><b>대홍</b><small>DAEHONG</small></span></a>
-      <div class="foot-links"><a href="about.html">회사소개</a><a href="business.html">사업영역</a><a href="contact.html">오시는 길</a></div>
+      <div class="foot-links"><a href="about.html">회사소개</a><a href="business.html">사업영역</a><a href="welfare.html">복지제도</a><a href="contact.html">오시는 길</a></div>
     </div>
     <div class="foot-info">
-      <span>(주)대홍</span><span>대표 고재영</span><br>
-      <span>경상북도 성주군 초전면 주천로 1332-22</span>
+      <span>(주)대홍</span><span>대표이사 조이휘</span><br>
+      <span>경상북도 성주군 초전면 주천로 1332-22</span><br>
+      <span>전화 054-932-8855</span><span>팩스 054-932-8856</span>
       <div class="foot-copy">© DAEHONG Co., Ltd. All rights reserved.</div>
     </div>
   </div>
 </footer>
-<script src="js/script.js?v=1"></script>
+<script src="js/script.js?v=2"></script>
 </body>
 </html>
